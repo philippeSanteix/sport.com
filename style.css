@@ -1,0 +1,193 @@
+*{
+    margin: 0; padding: 0;
+    
+}
+
+
+
+body{height: 100vh;}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+
+
+#imagelogo{
+   background-image: url(./logo.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 25%;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+
+
+
+#headerdroite{
+    width: 50%;
+
+}
+
+#navhaut{
+    display: flex;
+    background-color:lightgrey;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logomoncompte{
+    background-image: url(./icon-mon-compte.png);
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#logopanier{
+    background-image: url(./icon-mon-panier.png);
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+#navbas{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ h4{
+     text-align: right;
+ }
+
+
+ #imagebackground{
+     background-color: black;
+     background-image: url(./header-page-catalogue.png);
+     height: 15vh;
+     width: 100%;
+     background-size: contain;
+     background-repeat: no-repeat;
+    background-position: center;
+
+ }
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+
+#container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color:whitesmoke
+
+
+}
+
+#article{
+    height: 25%;
+    width: 25%;
+}
+
+
+.photoarticlenoir{
+    background-image: url(./gant-boxe-2.png);
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+} 
+.photoarticlerouge{
+    background-image: url(./gant-boxe-1.png);
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.vente{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+#containerfooterhaut{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+
+}
+
+.logotex{
+    width: 25%;
+
+}
+
+.imagefooterhautlivre{
+    background-image: url(./icon-livre.png);
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+
+.imagefooterhautcamion{
+    background-image: url(./icon-camion.png);
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.imagefooterhautcadenat{
+    background-image: url(./icon-cadenat.png);
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.imagefooterhautpouce{
+    background-image: url(./icon-pouce.png);
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+
+.textfooter{
+    font-size: 0.5em;
+    color: white;
+}
+
+#containerfooterbas{
+    background-color: black;
+    justify-content: center;
+}
